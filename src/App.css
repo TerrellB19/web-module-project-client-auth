@@ -27,6 +27,52 @@
 .App-link {
   color: #61dafb;
 }
+header {
+  display: flex;
+  gap: 1px 40%;
+  padding: 10px;
+  border-bottom: 4px solid black;
+}
+
+header .links {
+  display: flex;
+  justify-content: flex-end;
+  
+
+}
+
+.header-link {
+  display: flex;
+  text-decoration: none;
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  height: 16px;
+  padding: 20px;
+
+  
+}
+@media screen and (max-width: 780px) {
+  header {
+    display: flex; 
+    gap: 1px 6.5%;
+
+  }
+  header .links {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2px;
+ 
+  }
+  
+  }
+  @media screen and (min-width: 781px) {
+    header {
+      display: flex;   
+      gap: 1px 70%;
+    }
+    
+  }
 
 @keyframes App-logo-spin {
   from {
